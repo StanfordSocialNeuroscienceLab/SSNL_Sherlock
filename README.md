@@ -7,12 +7,12 @@ Login to Sherlock:
 http://sherlock.stanford.edu/mediawiki/index.php/LogonCluster#Mac
 
 For a quicker way to log in to Sherlock:
-1) Open Terminal
-2) Type 'open -a TextEdit ~/.bash_profile'
-3) Paste the following into the file, replacing "SUNetID" with your SUNet ID. 
+1. Open Terminal
+2. Type 'open -a TextEdit ~/.bash_profile'
+3. Paste the following into the file, replacing "SUNetID" with your SUNet ID. 
 
-alias sherlock='kinit SUNetID@stanford.edu
-		ssh -X mdclark@sherlock.stanford.edu'
+>alias sherlock='kinit SUNetID@stanford.edu
+>		ssh -X mdclark@sherlock.stanford.edu'
 
-4) Save file
-5) Now when you go to open sherlock in terminal, just type 'sherlock' and it wil prompt you for your password
+4. Save file
+5. Now when you go to open sherlock in terminal, just type 'sherlock' and it wil prompt you for your password
