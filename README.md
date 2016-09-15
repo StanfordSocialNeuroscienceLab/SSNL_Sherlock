@@ -20,3 +20,6 @@ For a quicker way to log in to Sherlock:
 
 ## To Learn about Transferring Files: 
 http://sherlock.stanford.edu/mediawiki/index.php/TransferFiles
+
+Example:
+rsync -a /path/to/local/file XXXXX@sherlock.stanford.edu:path/to/remote/file
